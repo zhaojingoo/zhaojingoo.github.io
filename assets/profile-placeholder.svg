@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">Abstract green portrait placeholder to replace with a personal photograph.</desc>
+  <rect width="640" height="800" fill="#e4ebe7"/>
+  <circle cx="320" cy="290" r="118" fill="#8fa99f"/>
+  <path d="M102 735c18-176 99-275 218-275s200 99 218 275" fill="#52766b"/>
+  <circle cx="528" cy="112" r="46" fill="#c3d9d0"/>
+  <path d="M58 106h180M58 130h120" stroke="#b7c8c1" stroke-width="8"/>
+</svg>

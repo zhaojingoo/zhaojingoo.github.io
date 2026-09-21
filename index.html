@@ -1,1 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ketong Ding — AI and machine learning graduate working on multimodal AI, computer vision, and medical image analysis.">
+  <meta name="theme-color" content="#f7f8fa">
+  <title>Ketong Ding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Ketong Ding, home">KD</a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#background">Background</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
+  <main id="top">
+    <section class="intro" id="about">
+      <div class="intro-copy">
+        <p class="eyebrow">AI &amp; machine learning · Imperial College London</p>
+        <h1>Ketong Ding</h1>
+        <p class="lead">
+          I am an AI and machine learning graduate interested in multimodal learning,
+          computer vision, and medical image analysis.
+        </p>
+        <p class="bio">
+          My work spans streaming vision-language systems, controllable medical image
+          segmentation, graph neural networks, and reinforcement learning. I enjoy
+          turning open-ended research questions into reproducible systems and am
+          interested in research and PhD opportunities in multimodal and medical AI.
+        </p>
+        <div class="links" aria-label="Profile links">
+          <a href="mailto:ketong.ding24@alumni.imperial.ac.uk">Email</a>
+          <a href="https://github.com/zhaojingoo">GitHub</a>
+          <a href="https://www.linkedin.com/in/ktding">LinkedIn</a>
+        </div>
+      </div>
+
+      <figure class="portrait-wrap">
+        <img class="portrait" src="assets/profile-placeholder.svg" alt="Placeholder portrait for Ketong Ding">
+        <figcaption>Replace with <code>assets/profile.jpg</code></figcaption>
+      </figure>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Research through projects</h2>
+      </div>
+
+      <article class="project project-featured">
+        <a class="project-visual" href="https://github.com/zhaojingoo/Medical-Image-Segmentation-ControlNet" aria-label="View the cardiac MRI segmentation project on GitHub">
+          <img src="assets/cardiac-controlnet.svg" alt="Diagram showing iterative cardiac MRI segmentation refinement">
+        </a>
+        <div class="project-copy">
+          <p class="project-kicker">MSc project · Medical imaging · 2025</p>
+          <h3><a href="https://github.com/zhaojingoo/Medical-Image-Segmentation-ControlNet">ControlNet for Iterative Medical Image Segmentation</a></h3>
+          <p>
+            Developed a ControlNet-inspired pipeline that injects external guidance
+            into a pretrained U-Net to iteratively refine four-class cardiac MRI
+            segmentation across two datasets.
+          </p>
+          <ul class="results" aria-label="Selected results">
+            <li><strong>0.924</strong><span>ACDC Dice</span></li>
+            <li><strong>0.874</strong><span>M&amp;Ms Dice</span></li>
+            <li><strong>+2%</strong><span>vs baseline</span></li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/zhaojingoo/Medical-Image-Segmentation-ControlNet">Code <span aria-hidden="true">↗</span></a>
+            <span>PyTorch</span><span>ControlNet</span><span>Segmentation</span>
+          </div>
+        </div>
+      </article>
+
+      <div class="focus-grid">
+        <article>
+          <span class="focus-number">01</span>
+          <h3>Streaming multimodal AI</h3>
+          <p>Combined TinyLlama, SigLIP, and projector-based alignment for real-time video-to-language emotion reasoning.</p>
+        </article>
+        <article>
+          <span class="focus-number">02</span>
+          <h3>Graph neural networks</h3>
+          <p>Compared GCN, heterogeneous GCN, and GAT models; a node-type-aware GCN achieved 0.96 F1.</p>
+        </article>
+        <article>
+          <span class="focus-number">03</span>
+          <h3>Reinforcement learning</h3>
+          <p>Benchmarked five policy-gradient algorithms for drone hover stability in the Flightmare simulator.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section compact-section" id="background">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Applied research</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-row">
+          <p class="timeline-date">Apr — Jun 2026</p>
+          <div>
+            <h3>Multimodal AI Research Intern · GING AI Ltd</h3>
+            <p>Built a lightweight streaming multimodal framework for low-latency video understanding and evaluated outputs across temporal alignment, fluency, semantic correctness, and perplexity.</p>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <p class="timeline-date">Jun — Jul 2023</p>
+          <div>
+            <h3>Data Analyst Intern · Inspur Software Technology</h3>
+            <p>Developed a CNN-based clustering-parameter prediction model for dynamic smart-city data, improving segmentation accuracy and processing efficiency.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact-section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-row">
+          <p class="timeline-date">2024 — 2025</p>
+          <div>
+            <h3>MSc Computing (Artificial Intelligence &amp; Machine Learning)</h3>
+            <p>Imperial College London · Distinction</p>
+          </div>
+        </div>
+        <div class="timeline-row">
+          <p class="timeline-date">2021 — 2024</p>
+          <div>
+            <h3>BSc Computer Science &amp; Mathematics</h3>
+            <p>University of Manchester · First Class · Professor&rsquo;s Prize for Outstanding Performance</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">Get in touch</p>
+      <h2>Interested in multimodal AI, medical imaging, or a potential collaboration?</h2>
+      <a class="contact-link" href="mailto:ketong.ding24@alumni.imperial.ac.uk">ketong.ding24@alumni.imperial.ac.uk <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> Ketong Ding</p>
+    <p>Built for GitHub Pages.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

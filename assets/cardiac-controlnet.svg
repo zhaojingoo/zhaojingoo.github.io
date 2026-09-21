@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Iterative cardiac MRI segmentation</title>
+  <desc id="desc">A conceptual diagram showing an MRI slice, corrective guidance, and a refined segmentation.</desc>
+  <defs>
+    <radialGradient id="scan" cx="48%" cy="45%" r="53%">
+      <stop offset="0" stop-color="#d9dfdd"/>
+      <stop offset=".42" stop-color="#86908d"/>
+      <stop offset=".7" stop-color="#3d4744"/>
+      <stop offset="1" stop-color="#17211f"/>
+    </radialGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#176b5b"/></marker>
+  </defs>
+  <rect width="960" height="620" fill="#f1f4f1"/>
+  <text x="70" y="75" fill="#66716e" font-family="Arial, sans-serif" font-size="18" letter-spacing="2">ITERATIVE REFINEMENT</text>
+  <g transform="translate(70 135)">
+    <rect width="250" height="300" rx="5" fill="#17211f"/>
+    <ellipse cx="125" cy="150" rx="102" ry="118" fill="url(#scan)"/>
+    <ellipse cx="106" cy="144" rx="38" ry="52" fill="#151b1a" stroke="#b9c1bf" stroke-width="11"/>
+    <ellipse cx="159" cy="153" rx="30" ry="42" fill="#252c2a"/>
+    <text x="0" y="335" fill="#66716e" font-family="Arial, sans-serif" font-size="16">Cardiac MRI</text>
+  </g>
+  <path d="M350 285h95" stroke="#176b5b" stroke-width="4" marker-end="url(#arrow)"/>
+  <g transform="translate(475 185)">
+    <rect width="130" height="200" rx="65" fill="#dcece6"/>
+    <circle cx="65" cy="62" r="12" fill="#d25b4b"/>
+    <circle cx="48" cy="109" r="10" fill="#e3a93c"/>
+    <circle cx="82" cy="142" r="11" fill="#347da1"/>
+    <path d="M65 0v200M0 100h130" stroke="#afcbc1" stroke-width="2" stroke-dasharray="5 7"/>
+    <text x="65" y="235" text-anchor="middle" fill="#66716e" font-family="Arial, sans-serif" font-size="16">Corrections</text>
+  </g>
+  <path d="M635 285h95" stroke="#176b5b" stroke-width="4" marker-end="url(#arrow)"/>
+  <g transform="translate(760 135)">
+    <rect width="130" height="300" rx="5" fill="#17211f"/>
+    <ellipse cx="65" cy="145" rx="50" ry="72" fill="#d25b4b" opacity=".88"/>
+    <ellipse cx="53" cy="140" rx="26" ry="42" fill="#e3a93c"/>
+    <ellipse cx="82" cy="154" rx="20" ry="34" fill="#347da1"/>
+    <ellipse cx="53" cy="140" rx="12" ry="24" fill="#17211f"/>
+    <text x="65" y="335" text-anchor="middle" fill="#66716e" font-family="Arial, sans-serif" font-size="16">Refined mask</text>
+  </g>
+  <text x="70" y="545" fill="#17211f" font-family="Georgia, serif" font-size="29">ControlNet-style guidance for four-class segmentation</text>
+  <text x="70" y="580" fill="#66716e" font-family="Arial, sans-serif" font-size="16">ACDC · M&amp;Ms · uncertainty maps · point-based interaction</text>
+</svg>
