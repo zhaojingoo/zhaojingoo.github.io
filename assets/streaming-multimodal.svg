@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Streaming multimodal emotion reasoning</title>
+  <desc id="desc">Video frames flow through a vision encoder and language model to produce an emotion-aware response.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#176b5b"/></marker></defs>
+  <rect width="960" height="600" fill="#eef3f0"/>
+  <text x="60" y="64" font-family="Arial" font-size="17" letter-spacing="2" fill="#66716e">STREAMING VIDEO → LANGUAGE</text>
+  <g transform="translate(58 126)">
+    <rect x="0" y="38" width="180" height="220" rx="5" fill="#b8cbc4"/><rect x="22" y="18" width="180" height="220" rx="5" fill="#88a49a"/><rect x="44" width="180" height="220" rx="5" fill="#294b43"/>
+    <circle cx="134" cy="92" r="44" fill="#d8e3df"/><path d="M102 148c8-35 56-35 64 0" fill="none" stroke="#d8e3df" stroke-width="12"/>
+    <text x="112" y="292" text-anchor="middle" font-family="Arial" font-size="15" fill="#66716e">continuous frames</text>
+  </g>
+  <path d="M310 270h100" stroke="#176b5b" stroke-width="4" marker-end="url(#a)"/>
+  <g transform="translate(440 155)"><rect width="170" height="230" rx="8" fill="#fff" stroke="#ccd7d2"/><circle cx="85" cy="74" r="38" fill="#dcece6"/><path d="M62 73h46M85 50v46" stroke="#176b5b" stroke-width="5"/><text x="85" y="153" text-anchor="middle" font-family="Arial" font-size="18" fill="#17211f">SigLIP</text><text x="85" y="181" text-anchor="middle" font-family="Arial" font-size="14" fill="#66716e">projector</text><text x="85" y="207" text-anchor="middle" font-family="Arial" font-size="14" fill="#66716e">TinyLlama</text></g>
+  <path d="M640 270h82" stroke="#176b5b" stroke-width="4" marker-end="url(#a)"/>
+  <g transform="translate(750 158)"><rect width="155" height="220" rx="8" fill="#176b5b"/><path d="M31 48h92M31 82h68M31 116h82" stroke="#dcece6" stroke-width="9" stroke-linecap="round"/><circle cx="48" cy="169" r="14" fill="#e6b24b"/><path d="M71 169h52" stroke="#dcece6" stroke-width="7" stroke-linecap="round"/><text x="77" y="252" text-anchor="middle" font-family="Arial" font-size="15" fill="#66716e">emotion response</text></g>
+  <text x="60" y="535" font-family="Georgia" font-size="27" fill="#17211f">Low-latency temporal reasoning</text>
+</svg>

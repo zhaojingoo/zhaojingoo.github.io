@@ -56,45 +56,40 @@
         <h2>Research through projects</h2>
       </div>
 
-      <article class="project project-featured">
-        <a class="project-visual" href="https://github.com/zhaojingoo/Medical-Image-Segmentation-ControlNet" aria-label="View the cardiac MRI segmentation project on GitHub">
-          <img src="assets/cardiac-controlnet.svg" alt="Diagram showing iterative cardiac MRI segmentation refinement">
-        </a>
-        <div class="project-copy">
-          <p class="project-kicker">MSc project · Medical imaging · 2025</p>
-          <h3><a href="https://github.com/zhaojingoo/Medical-Image-Segmentation-ControlNet">ControlNet for Iterative Medical Image Segmentation</a></h3>
-          <p>
-            Developed a ControlNet-inspired pipeline that injects external guidance
-            into a pretrained U-Net to iteratively refine four-class cardiac MRI
-            segmentation across two datasets.
-          </p>
-          <ul class="results" aria-label="Selected results">
-            <li><strong>0.924</strong><span>ACDC Dice</span></li>
-            <li><strong>0.874</strong><span>M&amp;Ms Dice</span></li>
-            <li><strong>+2%</strong><span>vs baseline</span></li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/zhaojingoo/Medical-Image-Segmentation-ControlNet">Code <span aria-hidden="true">↗</span></a>
-            <span>PyTorch</span><span>ControlNet</span><span>Segmentation</span>
-          </div>
-        </div>
-      </article>
-
-      <div class="focus-grid selected-projects">
-        <article>
-          <p class="project-kicker">Research internship · GING AI · 2026</p>
-          <h3>Streaming Multimodal Emotion Reasoning</h3>
-          <p>Built a lightweight framework combining TinyLlama, SigLIP, and projector-based alignment for real-time video-to-language emotion reasoning. Designed temporal inference logic that responds when emotional states change and evaluated outputs across four quality dimensions.</p>
-          <div class="project-links">
-            <span>Multimodal AI</span><span>Vision-language models</span><span>Streaming inference</span>
+      <div class="projects-grid">
+        <article class="project-card">
+          <a class="project-card-visual" href="https://github.com/zhaojingoo/streaming-emotion-llm" aria-label="View the streaming multimodal emotion reasoning project on GitHub">
+            <img src="assets/streaming-multimodal.svg" alt="Diagram of streaming video frames being mapped to language and emotion states">
+          </a>
+          <div class="project-card-copy">
+            <p class="project-kicker">Research internship · GING AI · 2026</p>
+            <h3>Streaming Multimodal Emotion Reasoning</h3>
+            <p>Combined TinyLlama, SigLIP, and projector alignment for real-time video-to-language reasoning triggered by emotional state changes.</p>
+            <a class="code-link" href="https://github.com/zhaojingoo/streaming-emotion-llm">GitHub <span aria-hidden="true">↗</span></a>
           </div>
         </article>
-        <article>
-          <p class="project-kicker">BSc dissertation · University of Manchester · 2024</p>
-          <h3>Reinforcement Learning for Drone Control</h3>
-          <p>Implemented and compared VPG, A2C, TRPO, ACKTR, and PPO for drone hover stability in the Flightmare simulator, analysing reward, convergence speed, and adaptability under different conditions.</p>
-          <div class="project-links">
-            <span>Reinforcement learning</span><span>Autonomous control</span><span>Flightmare</span>
+
+        <article class="project-card">
+          <a class="project-card-visual" href="https://github.com/zhaojingoo/Medical-Image-Segmentation-ControlNet" aria-label="View the cardiac MRI segmentation project on GitHub">
+            <img src="assets/cardiac-controlnet.svg" alt="Diagram showing iterative cardiac MRI segmentation refinement">
+          </a>
+          <div class="project-card-copy">
+            <p class="project-kicker">MSc project · Imperial · 2025</p>
+            <h3>ControlNet for Medical Image Segmentation</h3>
+            <p>Used external guidance to refine cardiac MRI segmentation, achieving 0.924 Dice on ACDC and 0.874 on M&amp;Ms.</p>
+            <a class="code-link" href="https://github.com/zhaojingoo/Medical-Image-Segmentation-ControlNet">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <a class="project-card-visual" href="https://github.com/zhaojingoo/flightmare" aria-label="View the reinforcement learning drone control project on GitHub">
+            <img src="assets/drone-rl.svg" alt="Diagram of a quadrotor learning to hover using reinforcement learning">
+          </a>
+          <div class="project-card-copy">
+            <p class="project-kicker">BSc dissertation · Manchester · 2024</p>
+            <h3>Reinforcement Learning for Drone Control</h3>
+            <p>Compared five policy-gradient algorithms for quadrotor hover stability, convergence, and adaptability in Flightmare.</p>
+            <a class="code-link" href="https://github.com/zhaojingoo/flightmare">GitHub <span aria-hidden="true">↗</span></a>
           </div>
         </article>
       </div>
